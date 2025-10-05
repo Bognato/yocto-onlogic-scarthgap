@@ -1,0 +1,28 @@
+# Yocto build artifacts
+build/tmp/
+build/sstate-cache/
+build/downloads/
+build/cache/
+
+# BitBake locks
+build/bitbake.lock
+build/pseudodone
+
+# SDK and image output
+tmp/deploy/
+tmp/work/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor/OS files
+.DS_Store
+*.swp
+*.bak
+*~
+
+# Keep your custom layers, submodules, and configs
+!meta-onlogic/
+!build/conf/
+!README.md
